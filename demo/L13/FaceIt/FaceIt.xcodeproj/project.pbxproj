@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58454A8B1F99522A00202F45 /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58454A8A1F99522A00202F45 /* EyeView.swift */; };
 		58AC3C151F61BF9200D0304B /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC3C141F61BF9200D0304B /* FacialExpression.swift */; };
 		58AFCD901F635F31006D03B5 /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AFCD8F1F635F31006D03B5 /* VCLLoggingViewController.swift */; };
 		58B9A7E31F6074490054FA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B9A7E21F6074490054FA43 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58454A8A1F99522A00202F45 /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		58AC3C141F61BF9200D0304B /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		58AFCD8F1F635F31006D03B5 /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
 		58B9A7DF1F6074490054FA43 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				58AC3C141F61BF9200D0304B /* FacialExpression.swift */,
 				58B9A7E41F6074490054FA43 /* FaceViewController.swift */,
 				58E7263F1F6705FC00BCAC46 /* BlinkingFaceViewController.swift */,
+				58454A8A1F99522A00202F45 /* EyeView.swift */,
 				58B9A7F51F6074A10054FA43 /* FaceView.swift */,
 				58B9A7E61F6074490054FA43 /* Main.storyboard */,
 				58FC667D1F63192600D0EB08 /* EmotionsViewController.swift */,
@@ -165,6 +168,7 @@
 				58FC667E1F63192600D0EB08 /* EmotionsViewController.swift in Sources */,
 				58E726401F6705FC00BCAC46 /* BlinkingFaceViewController.swift in Sources */,
 				58B9A7E31F6074490054FA43 /* AppDelegate.swift in Sources */,
+				58454A8B1F99522A00202F45 /* EyeView.swift in Sources */,
 				58B9A7F61F6074A10054FA43 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -30,10 +30,10 @@ class FaceViewController: VCLLoggingViewController {
             let pinchRecognizer = UIPinchGestureRecognizer(target: faceView, action: handler)
             faceView.addGestureRecognizer(pinchRecognizer)
             // L05 Step 10: Add tap gesture to toggle eyes
-            let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(toggleEyes(byReactingTo:)))
-            // not needed below: default
-            //tapRecognizer.numberOfTapsRequired = 1
-            faceView.addGestureRecognizer(tapRecognizer)
+//            let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(toggleEyes(byReactingTo:)))
+//            // not needed below: default
+//            //tapRecognizer.numberOfTapsRequired = 1
+//            faceView.addGestureRecognizer(tapRecognizer)
             
             let swipeUp = UISwipeGestureRecognizer(target: self, action: #selector(happierFace))
             swipeUp.direction = .up
@@ -73,6 +73,40 @@ class FaceViewController: VCLLoggingViewController {
 //        }
 //    }
     
+    private struct HeadShake {
+        static let angle = CGFloat.pi / 6
+        static let segmentDuration: TimeInterval = 0.5
+    }
+    
+    private func rotateFace(by angle: CGFloat) {
+        faceView.transform = faceView.transform.rotated(by: angle)
+    }
+    
+    private func shakeHead() {
+        UIView.animate(
+            withDuration: HeadShake.segmentDuration,
+            animations: { self.rotateFace(by: HeadShake.angle) }, //don't need memory breakage here because we are in the middle of
+                                                                  //an animation and the view controller is on the screen (thus in heap)
+            completion: { finished in
+                if finished {
+                    UIView.animate(
+                        withDuration: HeadShake.segmentDuration,
+                        animations: { self.rotateFace(by: -HeadShake.angle * 2) },
+                        completion: { finished in
+                            if finished {
+                                UIView.animate(withDuration: HeadShake.segmentDuration,
+                                               animations: { self.rotateFace(by: HeadShake.angle) })
+                            }
+                    })
+                }
+            }
+        )
+    }
+    
+    @IBAction func shakeHead(_ sender: Any) {
+        shakeHead()
+    }
+
     @objc func happierFace() {
         expression = expression.happier
     }
