@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cassini/ImageViewController.swift"
+            timestampString = "529813763.858139"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "ImageViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cassini.ImageViewController.spinner.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIActivityIndicatorView&gt;"
+                  moduleName = "Cassini"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendong/learn/stanford-ios/demo/L8-Cassini-Threading/Cassini/Cassini/ImageViewController.swift"
+                  timestampString = "529813763.873891"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cassini.ImageViewController.spinner.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIActivityIndicatorView&gt;"
+                  moduleName = "Cassini"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendong/learn/stanford-ios/demo/L8-Cassini-Threading/Cassini/Cassini/ImageViewController.swift"
+                  timestampString = "529813763.878912"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cassini.ImageViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Cassini.ImageViewController"
+                  moduleName = "Cassini"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendong/learn/stanford-ios/demo/L8-Cassini-Threading/Cassini/Cassini/ImageViewController.swift"
+                  timestampString = "529813763.882567"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "229">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cassini.ImageViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Cassini.ImageViewController&gt;"
+                  moduleName = "Cassini"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendong/learn/stanford-ios/demo/L8-Cassini-Threading/Cassini/Cassini/ImageViewController.swift"
+                  timestampString = "529813763.884263"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "159">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
